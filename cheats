@@ -1,0 +1,33 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Hoeless", "DarkTheme")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("AimLock (q)", "Locks on to user.", function()
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/4EKMVbwu"))()
+end)
+
+
+MainSection:NewButton("Trash talk (H)", "alocal uto Trash talks in chat.", function()
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/9k7TW3G6"))()
+end)
+
+
+MainSection:NewButton("God bullet", "Makes it so people cannot shoot you.", function()
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/GzjdVp8W"))()
+end)
+
+MainSection:NewButton("arrest all", "arrest everyone in the lobby.", function()
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/TJFEz0UR"))()
+end)
+
+MainSection:NewButton("bike fly", "your bike will spread its wings. ", function()
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/cmgKb8QV"))()
+end)
+
+MainSection:NewButton("fly", "you will spread your wings. ", function()
+    local Library = loadstring(game:HttpGet("https://pastebin.com/raw/8uzbykJb"))()
+end)
